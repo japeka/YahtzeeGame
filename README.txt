@@ -1,1 +1,1 @@
-This readme file contains project called YahtzeeGame.
+This project is about YahtzeeGame.
