@@ -1,0 +1,21 @@
+Azureen luotu
+
+yahtzeegame -niminen mobiilipalvelu, joka
+(https://yahtzeegame.azure-mobile.net/)
+
+k‰ytt‰‰
+
+item nimist‰ tietokantaa. 
+
+Tietokannan rakenne on seuraavanlainen
+id		min		max		level		description
+bigint(MSSQL)	int(MSSQL)	int(MSSQL)	int(MSSQL)	text(MSSQL)			
+
+read-tapahtumissa k‰ytet‰‰n vain oletusta
+
+function read(query, user, request) {
+    request.execute();
+}
+
+
+https://yahtzeegame.azure-mobile.net/
